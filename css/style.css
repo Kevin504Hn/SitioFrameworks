@@ -136,6 +136,28 @@
 }
 
 
+@media (max-width: 416px) {
+    .txtmsgw {
+        max-width: 90%;
+        font-size: 1.2em;
+    }
+
+    .txthome {
+        max-width: 90%;
+        font-size: 48px;
+        /* Ajusta el tamaño de fuente para pantallas muy pequeñas */
+    }
+
+    .text-strokec {
+        max-width: 90%;
+        font-size: 1em;
+    }
+
+    .bg-homep {
+        top: 170px;
+    }
+}
+
 @media (max-width: 360px) {
     .txtmsgw {
         max-width: 90%;
