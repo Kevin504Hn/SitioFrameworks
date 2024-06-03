@@ -9,6 +9,7 @@
 
 body .bdc{
     display:flex !important; 
+    width: 100%;
     justify-content: center !important;
     align-items: center !important;
     background-size: cover !important;

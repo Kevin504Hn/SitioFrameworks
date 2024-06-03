@@ -9,25 +9,26 @@
     z-index: -1;
 }
 
-.imgbgcontac{
+.imgbgcontac {
     position: absolute;
     top: 75px;
     left: 0;
     width: 100%;
-    height: 82.5%;
-    background: linear-gradient(rgba(0 0 0 / .8),rgba(0 0 0 / .8)),url(../img/bgcontactanos.jpg) !important;
+    height: 1125px;
+    background: linear-gradient(rgba(0 0 0 / .8), rgba(0 0 0 / .8)), url(../img/bgcontactanos.jpg) !important;
     object-fit: cover;
     z-index: -1;
 }
 
-.bgbody{
+.bgbody {
     --bs-bg-opacity: 1;
-  background-color: rgba(83, 104, 156, 1);
+    background-color: rgba(83, 104, 156, 1);
 }
+
 .text-strokec {
     font-family: "Merriweather", serif;
-  font-weight: 800;
-  font-style: normal;
+    font-weight: 800;
+    font-style: normal;
     font-size: 32px;
     font-weight: bold;
     color: #000;
@@ -47,14 +48,14 @@
 
 }
 
-.colorbtn{
+.colorbtn {
     background-color: #1d2c50 !important;
 }
 
 .txthome {
     font-family: "Parisienne", cursive;
-  font-weight: 400;
-  font-style: normal;
+    font-weight: 400;
+    font-style: normal;
     font-size: 144px;
     font-weight: bold;
     color: #000;
@@ -74,10 +75,10 @@
 }
 
 
-.txtmsgw{
+.txtmsgw {
     font-family: "Merriweather", serif;
-  font-weight: 800;
-  font-style: normal;
+    font-weight: 800;
+    font-style: normal;
     font-size: 56px;
     font-weight: bold;
     color: #000;
@@ -101,18 +102,35 @@
 @media (max-width: 768px) {
     .txtmsgw {
         max-width: 90%;
-        font-size: 2em; 
+        font-size: 2em;
     }
+
     .txthome {
         max-width: 90%;
-        font-size: 96px; /* Ajusta el tamaño de fuente para pantallas más pequeñas */
+        font-size: 96px;
+        /* Ajusta el tamaño de fuente para pantallas más pequeñas */
     }
+
     .text-strokec {
         max-width: 90%;
-        font-size: 1.5em; 
+        font-size: 1.5em;
     }
-    .bg-homep{
+
+    .bg-homep {
         top: 75px;
+    }
+
+    .imgbgcontac {
+        top: 75px;
+       /* height: 100%;*/
+    }
+
+    .h1c{
+        font-size: 1.2em !important;
+    }
+
+    .data p{
+        font-size: 0.9em !important;
     }
 }
 
@@ -120,21 +138,35 @@
 @media (max-width: 576px) {
     .txtmsgw {
         max-width: 90%;
-        font-size: 1.5em; 
+        font-size: 1.5em;
     }
+
     .txthome {
         max-width: 90%;
-        font-size: 72px; /* Ajusta el tamaño de fuente para pantallas aún más pequeñas */
+        font-size: 72px;
+        /* Ajusta el tamaño de fuente para pantallas aún más pequeñas */
     }
+
     .text-strokec {
         max-width: 90%;
-        font-size: 1.2em; 
+        font-size: 1.2em;
     }
-    .bg-homep{
+
+    .bg-homep {
         top: 130px;
     }
-}
+    .imgbgcontac {
+        top: 130px;
+        /*height: 90.5%;*/
+    }
 
+    .h1c{
+        font-size: 1.2em !important;
+    }
+    .data p{
+        font-size: 0.9em !important;
+    }
+}
 
 @media (max-width: 416px) {
     .txtmsgw {
@@ -156,23 +188,114 @@
     .bg-homep {
         top: 170px;
     }
+    .imgbgcontac {
+        top: 170px;
+       /* height: 67.5%;*/
+    }
+    .h1c{
+        font-size: 1.2em !important;
+    }
+    .data p{
+        font-size: 0.9em !important;
+    }
+}
+
+@media (max-width: 375px) {
+    .txtmsgw {
+        max-width: 90%;
+        font-size: 1.2em;
+    }
+
+    .txthome {
+        max-width: 90%;
+        font-size: 48px;
+        /* Ajusta el tamaño de fuente para pantallas muy pequeñas */
+    }
+
+    .text-strokec {
+        max-width: 90%;
+        font-size: 1em;
+    }
+
+    .bg-homep {
+        top: 170px;
+    }
+    .imgbgcontac {
+        top: 170px;
+       /* height: 90.5%;*/
+    }
+
+    .h1c{
+        font-size: 1.2em !important;
+    }
+    .data p{
+        font-size: 0.9em !important;
+    }
 }
 
 @media (max-width: 360px) {
     .txtmsgw {
         max-width: 90%;
-        font-size: 1.2em; 
+        font-size: 1.2em;
     }
+
     .txthome {
         max-width: 90%;
-        font-size: 48px; /* Ajusta el tamaño de fuente para pantallas muy pequeñas */
+        font-size: 48px;
+        /* Ajusta el tamaño de fuente para pantallas muy pequeñas */
     }
+
     .text-strokec {
         max-width: 90%;
-        font-size: 1em; 
+        font-size: 1em;
     }
-    .bg-homep{
+
+    .bg-homep {
         top: 170px;
+    }
+    .imgbgcontac {
+        top: 170px;
+        /*height: 90.5%;*/
+    }
+
+    .h1c{
+        font-size: 1.2em !important;
+    }
+    .data p{
+        font-size: 0.85em !important;
+    }
+}
+
+@media (max-width: 344px) {
+    .txtmsgw {
+        max-width: 90%;
+        font-size: 1.2em;
+    }
+
+    .txthome {
+        max-width: 90%;
+        font-size: 48px;
+        /* Ajusta el tamaño de fuente para pantallas muy pequeñas */
+    }
+
+    .text-strokec {
+        max-width: 90%;
+        font-size: 1em;
+    }
+
+    .bg-homep {
+        top: 170px;
+    }
+    .imgbgcontac {
+        top: 170px;
+        /*height: 90.5%;*/
+    }
+
+    .h1c{
+        font-size: 1em !important;
+    }
+    .data p{
+        font-size: 0.8em !important;
     }
 }
 
@@ -181,5 +304,5 @@
 
 
 /*background: linear-gradient(rgba(0 0 0 / .8),rgba(0 0 0 / .8)),url(../img/bgcontactanos.jpg) !important;*/
-
+/*class="h-100 w-100" style="height: 1080px;"*/
 /*<link rel="stylesheet" href="../css/style.css">*/
