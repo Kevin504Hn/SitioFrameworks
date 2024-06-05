@@ -4,10 +4,11 @@
     margin:0;
     padding: 0;
     box-sizing: border-box;
-    font-family: 'Montserrat', sans-serif;
+    
 }
 
 body .bdc{
+    font-family: 'Montserrat', sans-serif;
     display:flex !important; 
     width: 100%;
     justify-content: center !important;
