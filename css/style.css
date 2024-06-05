@@ -209,7 +209,7 @@
     .txthome {
         max-width: 90%;
         font-size: 48px;
-        
+        /* Ajusta el tamaño de fuente para pantallas muy pequeñas */
     }
 
     .text-strokec {
